@@ -33,6 +33,18 @@ footer{
     justify-content: space-between;
     background-color: cornflowerblue;
 }
+footer button{
+    background-color: rgb(76, 114, 185);
+    border: 0;
+    border-radius: 100%;
+    margin: .5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+footer button:hover {
+    background-color: rgb(68, 101, 163);
+    cursor: pointer;
+}
 dl{
     display: flex;
     justify-content: flex-start;
