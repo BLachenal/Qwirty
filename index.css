@@ -1,0 +1,25 @@
+html{
+    font-family: "Tasa Orbiter", sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    color: #d6d6c2;
+    margin: 0;
+    padding: 0;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
