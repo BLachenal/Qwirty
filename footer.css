@@ -1,0 +1,24 @@
+footer.page {
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+    margin: .1rem;
+    gap: 3rem;
+}
+footer.page menu {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+footer.page h2 {
+    border-bottom: 2px solid #eee;
+    color: #eee;
+    margin-bottom: 0;
+    
+}
+footer.page li {
+    border: none;
+    margin: 0;
+    padding-left: 0;
+}
