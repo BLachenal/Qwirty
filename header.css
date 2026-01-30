@@ -9,7 +9,6 @@
 .bottom-container{
     background-color: #121212;
     display: flex;
-    justify-content: space-between;
     padding: 2rem;
     gap: 2ch;
 }
@@ -45,8 +44,29 @@ menu li a {
     align-content: center;
     padding: .1rem 1.5rem;
     border-radius: 10px;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 .ad:hover{
     background-color: darkred;
+}
+.search-group{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    padding: .25rem .8rem;
+}
+.search-group form{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    width: 100%;
+    #product_search{
+        width: 100%;
+    }
+}
+h1{
+    display: flex;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
 }
