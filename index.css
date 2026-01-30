@@ -23,3 +23,22 @@ body {
   'GRAD' 0,
   'opsz' 24
 }
+.categories{
+  display: flex;
+  flex-direction: column;
+  min-width: fit-content;
+  margin: .25rem;
+  padding: .25rem;
+  margin-top: 0;
+  padding-top: 0;
+}
+.categories a{
+  text-decoration: none;
+  color: #d6d6c2;
+  background-color: cornflowerblue;
+  margin: 2px;
+  padding: .3rem;
+}
+.categories a:hover {
+  background-color: rgb(85, 126, 201);
+}

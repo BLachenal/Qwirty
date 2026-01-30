@@ -53,6 +53,7 @@ menu li a {
     display: flex;
     flex-grow: 1;
     justify-content: center;
+    align-items: center;
     padding: .25rem .8rem;
 }
 .search-group form{

@@ -1,0 +1,29 @@
+.page-container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.product{
+    flex: 25;
+    list-style: none;
+    margin: 2px;
+    padding: .25rem;
+    background-color: lightgray;
+    color: black;
+}
+.product h2 {
+    background-color: cornflowerblue;
+    margin: 2px;
+    padding: .25rem;
+}
+.product button {
+    display: flex;
+    justify-self: right;
+}
