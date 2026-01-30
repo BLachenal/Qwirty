@@ -4,10 +4,12 @@
     padding: 0;
 }
 .products{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0;
+ /*    display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    margin: 5rem;
+    margin-top: 0;
     padding: 0;
 }
 .product{
@@ -18,12 +20,39 @@
     background-color: lightgray;
     color: black;
 }
+.product p{
+    margin-top: 0;
+}
 .product h2 {
     background-color: cornflowerblue;
-    margin: 2px;
+    margin: 0px;
     padding: .25rem;
 }
-.product button {
+footer{
     display: flex;
-    justify-self: right;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+}
+dl{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .5rem;
+    dt{
+        font-weight: bold;
+    }
+    dd{
+       margin-inline-start: 1ch; 
+    }
+}
+figure{
+    display: flex;
+    margin: 0px;
+    margin-top: 0;
+    padding: 0;
+    height: 200px;
+}
+figure img{
+    width: 100%;
+    object-fit: cover;
 }
