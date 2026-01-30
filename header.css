@@ -34,6 +34,9 @@ menu li a {
     font-weight: bold;
     font-size: 1.05rem;
 }
+menu li a:hover {
+    text-decoration: underline;
+}
 .ad{
     max-height: 3rem;
     text-decoration: none;
