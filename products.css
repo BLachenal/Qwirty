@@ -1,7 +1,8 @@
-.page-container{
-    display: flex;
-    margin: 0;
-    padding: 0;
+@media (width >=601px){
+    .page-container{
+        display: flex;
+    }
+
 }
 .products{
  /*    display: flex;
